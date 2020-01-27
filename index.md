@@ -12,6 +12,15 @@ zip -e hoge.zip ファイル
 
 /remind 宛先 メッセージ on 日付 at 時間
 
+## Git
+
+### 削除
+
+* `git branch -d`
+* 未マージ `git branch -D`
+
+https://qiita.com/hogeta_/items/33d2334c9b1919bd5120
+
 ## adb でスクショ
 
 ### スクショ
