@@ -35,3 +35,17 @@ https://qiita.com/hogeta_/items/33d2334c9b1919bd5120
 
 * adb pull /sdcard/before_screen.png
 * adb shell rm /sdcard/before_screen.png
+
+## DebugView
+https://firebase.google.com/docs/analytics/debugview?hl=ja
+
+トラッキング開始
+```
+adb shell setprop debug.firebase.analytics.app package_name
+```
+トラッキング終了
+```
+adb shell setprop debug.firebase.analytics.app .none.
+```
+
+![参考](https://user-images.githubusercontent.com/24517539/77731856-17a68780-7047-11ea-82e8-fb0892f35ac4.png)
