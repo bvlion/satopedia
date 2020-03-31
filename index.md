@@ -21,6 +21,10 @@ zip -e hoge.zip ファイル
 
 https://qiita.com/hogeta_/items/33d2334c9b1919bd5120
 
+### 特定のファイル
+
+`git log -p`
+
 ## adb でスクショ
 
 ### スクショ
