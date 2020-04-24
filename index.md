@@ -25,6 +25,10 @@ https://qiita.com/hogeta_/items/33d2334c9b1919bd5120
 
 `git log -p /dir/target.file`
 
+### 特定の行
+
+`git log -L 70,80:/dir/target.file`
+
 ## adb でスクショ
 
 ### スクショ
