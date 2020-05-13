@@ -57,3 +57,9 @@ adb shell setprop debug.firebase.analytics.app .none.
 ```
 
 ![参考](https://user-images.githubusercontent.com/24517539/77731856-17a68780-7047-11ea-82e8-fb0892f35ac4.png)
+
+## 無線 adb
+
+* USB 接続して `adb tcpip 5555` を実行（5555 でなくてもいい）
+* adb connect <device-ip-address> （IP は設定のデバイス情報や Wi-Fi の設定などに記載されている。固定 IP がよさそう。）
+* 切断は `adb disconnect`
