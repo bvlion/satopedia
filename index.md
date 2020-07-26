@@ -63,3 +63,7 @@ adb shell setprop debug.firebase.analytics.app .none.
 * USB 接続して `adb tcpip 5555` を実行（5555 でなくてもいい）
 * adb connect <device-ip-address> （IP は設定のデバイス情報や Wi-Fi の設定などに記載されている。固定 IP がよさそう。）
 * 切断は `adb disconnect`
+
+## しばらくの間のバイブル
+
+https://qiita.com/takahirom/items/3f012d46e15a1666fa33
